@@ -1,5 +1,8 @@
 package tdd;
 
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
 import java.util.Objects;
 
 public class HashTest {
@@ -21,4 +24,7 @@ public class HashTest {
     String str = (String) obj;
     return Objects.equals(name, str);
   }
+
+
+
 }
